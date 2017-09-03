@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IocAndDiXamarinForms.Views.ProductsPage"
+             xmlns:viewModels="clr-namespace:IocAndDiXamarinForms.ViewModels"
+             Title="IoC and Dependency Injection"
+BindingContext="{Binding ProductsViewModel, Source={StaticResource Locator}}">
+<!--<ContentPage.BindingContext>
+        <viewModels:ProductsViewModel />
+    </ContentPage.BindingContext>-->
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding Products}" />
+    </ContentPage.Content>
+</ContentPage>
