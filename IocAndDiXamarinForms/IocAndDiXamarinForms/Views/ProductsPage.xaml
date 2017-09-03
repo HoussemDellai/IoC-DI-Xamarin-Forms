@@ -13,4 +13,5 @@
     <ContentPage.Content>
         <ListView ItemsSource="{Binding Products}" />
     </ContentPage.Content>
+
 </ContentPage>
