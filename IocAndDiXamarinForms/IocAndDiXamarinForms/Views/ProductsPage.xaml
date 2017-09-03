@@ -4,10 +4,12 @@
              x:Class="IocAndDiXamarinForms.Views.ProductsPage"
              xmlns:viewModels="clr-namespace:IocAndDiXamarinForms.ViewModels"
              Title="IoC and Dependency Injection"
-BindingContext="{Binding ProductsViewModel, Source={StaticResource Locator}}">
-<!--<ContentPage.BindingContext>
+             BindingContext="{Binding ProductsViewModel, Source={StaticResource Locator}}">
+    
+    <!--<ContentPage.BindingContext>
         <viewModels:ProductsViewModel />
     </ContentPage.BindingContext>-->
+    
     <ContentPage.Content>
         <ListView ItemsSource="{Binding Products}" />
     </ContentPage.Content>
