@@ -8,7 +8,9 @@ namespace IocAndDiXamarinForms.ViewModels
     {
         private readonly IProductsService _productsService;
         private readonly ITextToSpeech _textToSpeech;
+
         public IEnumerable<Product> Products { get; set; }
+
         public ProductsViewModel(IProductsService productsService, ITextToSpeech textToSpeech)
         {
             _productsService = productsService;
