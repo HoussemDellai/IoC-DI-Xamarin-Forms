@@ -2,11 +2,11 @@
 
 namespace IocAndDiXamarinForms.Tests.Mocks
 {
-    public class MockTextToSpeach : ITextToSpeech
+    public class MockTextToSpeech : ITextToSpeech
     {
         public void Speak(string text)
         {
-            
+            // implementation...
         }
     }
 }

@@ -17,7 +17,7 @@ namespace IocAndDiXamarinForms
             //var textToSpeach = DependencyService.Get<ITextToSpeech>();
 
             var unityContainer = new UnityContainer();
-
+            // register dependencies
             unityContainer.RegisterType<IProductsService, ProductsService>();
             unityContainer.RegisterInstance(typeof(ITextToSpeech), textToSpeech);
             unityContainer.RegisterInstance(typeof(ProductsViewModel));//optional
